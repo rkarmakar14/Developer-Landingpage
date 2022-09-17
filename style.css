@@ -1,0 +1,359 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body{
+  background-color: #fff;
+  font-size: 10px;
+  color: #1f1f11;
+  /* background-size: cover; */
+
+}
+header{
+  background-color: #3944F7;
+  /* background-size: 100px,800px ;*/
+   background-clip: content-box, padding-box;
+}
+nav{
+  display: flex;
+  flex: .1;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 15px;
+}
+.nav-item{
+  /* display: flex; */
+  margin-top: 20px;
+    margin-left: -150px;
+    justify-content: flex-end;
+    flex: .1;
+    color: #fff;
+}
+
+.nav-item-active{
+  /* position: flex; */
+  background-color: #fff; /* Green */
+  /* border: none; */
+  margin-top: 30px;
+  color: #1f1f11;
+  padding: 7px 32px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 70px;
+  /* margin: auto; */
+  
+
+}
+ nav>svg{
+  
+  width: 20px;
+  height: 30px;
+
+ } 
+.logo{
+  width: 10%;
+  margin-top: -10%;
+  margin-left: 20px;
+}
+
+.header-text{
+  margin-top: 100px;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: flex-start;
+}
+h2{
+  font-size: 50px;
+  color: #fff;
+}
+p{
+  margin-top: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+.header-image{
+  /* height: 10vh;  
+ width: 250px;  */
+  display: flex;
+  float: right;
+  margin-top: -250px;
+}
+.companies{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.company-items{
+  margin-top: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 150px;
+}
+.api{
+  margin-left: 40px;
+}
+ .api-heading{
+ margin-left: 20px;
+ }
+ .fa-solid{
+  border-radius: 50%;
+  background-color: #3a0ffc;
+  color: #fff; 
+  font-size: 30px;
+  padding: 4px 10px;
+  float: right;
+  margin-top: 60px;
+  margin-right: 50px;
+  cursor: pointer; 
+}
+.cards{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.card-body{
+  font-size: 10px;
+  color: #1f1f11;
+}
+.blog-heading{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.blog-cards{
+  margin-top: 10px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.blog-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff2f;
+}
+.blog-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+  /* justify-content: space-between; */
+}
+h6{
+  color: #5A20CB;
+  font-size: 12px;
+}
+h3{
+  font-size: 20px;
+}
+small{
+  font-size: 16px;
+}
+.blog-bottom{
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 300px;
+}
+.blog-author{
+  position: absolute;
+  /* background-color: #5A20CB; */
+  font-size: 12px;
+   margin-top: 130px;
+   margin-left: 200px; 
+}
+.faq-section{
+  margin-top: 50px;
+  display: flex;
+  background-color: #cad5e26c;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+div>div>h2{
+  margin-top: 50px;
+  color:black;
+  font-size: 30px;
+} 
+.faq-hf{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.faq-hfo{
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+div>div>button{
+  background-color: #3944F7; /* Green */
+  /* border: none; */
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.download-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+div> form{
+    background-color: #e2ecec;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+div>form>input{
+  border: none;
+  background-color: #e2ecec;
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+div>form>button{
+  background-color: #3a0ffc;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 120px;
+}
+div>form>button:hover{
+  cursor: pointer;
+  background-color: #1a6ece;
+  color: #fff;
+  font-size: 10pt;
+}
+.footer-section{
+  /* height: 40vh; */
+  background-color: #3944F7;
+  display: flex;
+  padding: 5%;
+}
+.footer-logo{
+  margin-left: 40px;
+  /* margin-top: 100px; */
+}
+.list{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-left: 20px;
+  /* margin-top: 20px; */
+}
+.list-items{
+  margin-top: 5px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  font-size: 12px;
+}
+
+.list-items1{
+  color: #fff;
+  margin-left: 20px;
+}
+.footer-right{
+  margin-left: 320px;
+}
+.footer-logos{
+  margin-left: 10px;
+}
+.logos-list{
+  display: flex;
+  padding-left: 62%;
+}
+@media only screen and (max-width: 500px){
+  header{
+    margin-right:-5% ;
+  }
+  .nav-item{
+    display: none;
+  }
+  .header-text{
+    position: relative;;
+    padding: 20px;
+    color: #1f1f11;
+    margin-top: 10px;
+  }
+  .logo{
+    position: absolute;
+    margin-top: -8%;
+    width: auto;
+  }
+  .header-image{
+    position: relative;
+    padding: auto;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    width: 300%;
+    margin-left: 40%;
+  }
+  .blog-cards{
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    /* width: 300%; */
+    /* margin-left: 40%; */
+  }
+  .blog-card-bottom-image{
+    display: none;
+  }
+   .blog-author{
+    margin-top: 70%;
+    margin-left: 30%;
+    /* padding: 10%; */
+   } 
+  .fa-solid{
+    display: none;
+  }
+  .blog-card{
+    margin-top: 10%;
+  }
+  .faq-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .faq-image{
+    padding-top: 2%;
+  }
+  
+  .download-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .download-email{
+    margin-top: 3%;
+  }
+   .footer-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-right{
+    margin-left: -80%;
+    color: #fff;
+  }
+}
